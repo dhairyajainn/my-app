@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main {
+    width: 100%;
+    height: 92vh;
+    background-color: #efd1e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 35%;
+    height: 80%;
+    background-color: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container h1 {
+    font-weight: 500;
+}
+
+.container input {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 12%;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    outline: none;
+}
+
+.container button {
+    width: 100%;
+    height: 12%;
+    border: none;
+    color: #fff;
+    background-color: #FA7A78;
+    font-size: 16px;
+}
+
+.container p {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+.container p>span {
+    color: #FA7A78;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scales {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+#label-text {
+    font-size: 13px;
+    margin-bottom: px;
+}

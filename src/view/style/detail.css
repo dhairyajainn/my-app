@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.detail {
+    display: flex;
+    
+    width: 100%;
+    height: 92vh;
+    /* background-color: forestgreen; */
+}
+
+.small-image-container {
+    margin-left: 7vh;
+    width: 15%;
+    height: 80vh;
+    /* background-color: firebrick; */
+}
+
+.small-image-container img {
+    width: 100%;
+    height: 18vh;
+    margin-top: 3vh;
+}
+
+.main-img {
+    /* background-color: fuchsia; */
+    height: 82.3vh;
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 3vh;
+}
+
+.main-img img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit:fill;
+}
+
+.desc {
+    width: 100%;
+    height: 82.3vh;
+    /* background-color: rgb(81, 67, 67); */
+    margin-top: 3vh;
+    margin-left: 40px;
+}
+
+.desc h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.desc img {
+    margin-top: 2vh;
+    scale: 1.1;
+    margin-left: 5px;
+}
+
+.desc .review {
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.price {
+    margin-top: 3vh;
+}
+
+.price del {
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #a69d9d;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.price span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ff5350;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.cloth-desc {
+    margin-top: 3vh;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-bottom: 3vh;
+}
+
+.size {
+    font-size: 22px;
+}
+
+.size h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.size button {
+    padding: 10px 12px;
+    background: transparent;
+    outline: none;
+    margin-right: 10px;
+    border: 1px solid #d1d1d1;
+    transition: all ease-in .3s;
+}
+
+.size button:hover {
+    background-color: #ff5350;
+}
+
+.add-to-cart {
+    margin-top: 30px;
+    padding: 15px 32px;
+    border: none;
+    background-color: #ff5350;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 4vh;
+}
+
+.category {
+    font-size: 14px;
+}
