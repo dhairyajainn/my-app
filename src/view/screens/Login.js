@@ -25,10 +25,15 @@ const Login = () => {
         }
        console.log(dataPush); //localhost:3000 ye daal 
         localStorage.setItem('user', dataPush)
+        if(email!=='' && password!=='') {
+            window.location = "/"
+        } else {
+            alert("Please enter correct email and password")
+        }
         setEmail('');
         setPassword('');
-        window.location = "/"
     }
+
     
   return (
 

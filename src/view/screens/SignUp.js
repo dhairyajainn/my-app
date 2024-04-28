@@ -31,10 +31,14 @@ const SignUp = () => {
         }
         console.log(dataPush);
         localStorage.setItem('usersignup', dataPush)
+        if(name!=='' && email!=='' && password!=='') {
+            window.location = '/login'
+        } else {
+            alert("Please enter correct information")
+        }
         setName('')
         setEmail('')
         setPassword('')
-        window.location = '/login'
     }
    return (
     <>
