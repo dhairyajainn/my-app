@@ -37,7 +37,8 @@ function RouterNav() {
             <Route path='/kids' Component={Kid} />
             <Route path='/addtocart' Component={AddToCart} />
             <Route path='/payment' Component={Payment} />
-            { userData !== null ? <>
+            { userData !== null ? 
+            <>
                 <Route path="/" Component={Home} />
             </>
                 :
