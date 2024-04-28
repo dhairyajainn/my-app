@@ -10,6 +10,7 @@ import MensCollection from '../screens/MensCollection';
 import Women from '../screens/Women';
 import Kid from '../screens/Kid';
 import AddToCart from '../screens/AddToCart';
+import Payment from '../screens/Payment';
 
 function RouterNav() {
     const [userData, setUserData] = useState('')
@@ -35,6 +36,7 @@ function RouterNav() {
             <Route path='/women' Component={Women} />
             <Route path='/kids' Component={Kid} />
             <Route path='/addtocart' Component={AddToCart} />
+            <Route path='/payment' Component={Payment} />
             { userData !== null ? <>
                 <Route path="/" Component={Home} />
             </>
