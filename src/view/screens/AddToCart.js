@@ -15,7 +15,7 @@ const AddToCart = () => {
       setQty(qty + 1);
     }
     function qtySub() {
-      if(qty>1);
+      if(qty>1 )
       setQty(qty - 1);
     }
     useEffect(()=>{

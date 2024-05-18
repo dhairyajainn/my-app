@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .banner {
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
     height: 92vh;
     background-image: linear-gradient(to bottom, #ffd1e3, #fbddf0, #f9eaf9, #faf5fe, #ffffff);
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .banner .text-area {
@@ -78,8 +78,8 @@
 .popularWomens {
     width: 100%;
     height: 100vh;
-    overflow: hidden;
-    background-color: cadetblue;
+    /* overflow: hidden; */
+    /* background-color: cadetblue; */
 }
 
 .popularWomens h1 {
@@ -113,8 +113,9 @@
     width: 100%;
     height: 57vh;
     margin-left: 7vh;
-    margin-right: 7vh;
-    padding: 10px;
+    /* margin-right: 7vh; */
+
+    /* padding-left: 10px; */
 
     /* background-color: rgb(53, 89, 33); */
 }
@@ -216,9 +217,9 @@
 .newCollections {
     width: 100%;
     height: 100vh;
-    /* margin-left: 7vh; */
-    margin-bottom: 25%;
-    /* margin-right: 7vh; */
+
+    /* overflow-x: scroll; */
+
     /* background-color: darkgoldenrod; */
 }
 
@@ -245,10 +246,15 @@
 .newCollection-flex-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    width: 90%;
-    margin-left: 7vh;
+    /* gap: 20px; */
+    width: 100%;
+   
+    /* grid-row: span 2; */
+    /* margin-left: 7vh; */
     /* background-color: saddlebrown; */
+}
+.newCollection::-webkit-scrollbar{
+    display: none;
 }
 
 .card-new-collection {
@@ -287,7 +293,7 @@
     width: 100%;
     height: 50vh;
     background-image: linear-gradient(to bottom, #ffd1e3, #fbddf0, #f9eaf9, #faf5fe, #ffffff);
-    margin-bottom: 3vh;
+    /* margin-bottom: 3vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -310,8 +316,6 @@
     justify-content: center;
     width: 60%;
     height: 30%;
-    
-    /* background-color: salmon; */
 }
 
 .input-field input {
@@ -336,5 +340,145 @@
     color: #fff;
     font-size: 18px;
     cursor: pointer;
-    font-size: 1.3rem;
+}
+
+@media (min-width:374px) and (max-width:761px) {
+    .home-wrapper{
+        /* border:10px solid black; */
+        max-width: 100vw;
+
+    }
+    .navbar{
+        width:100%;
+        overflow: scroll;
+        justify-content: start;
+        /* display: none; */
+    }
+    .banner .text-area {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        
+    }
+    .hero {
+        width: 0%;
+    }
+    .hero img {
+        display: none;
+    }
+    .text-area p {
+        /* margin-top: 30vh; */
+        margin-left: 7vh;
+        margin-bottom: 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+    }
+    .text-with-hi {
+        display: flex;
+        align-items: center;
+        /* margin-left: 7vh; */
+    }
+    .text-with-hi>h3 {
+        font-size: 3rem;
+    }
+    .text-area button {
+        margin-right: -4vh;
+        
+    }
+    .popularWomens {
+        /* height: 130vh; */
+        overflow: scroll;
+        /* background-color: cadetblue; */
+    }
+    .popularWomens h1::after {
+        content: '';
+        width: 50%;
+        height: 2px;
+        background-color: #000;
+        position: absolute;
+        margin-top:14%;
+    }
+    .bannerBottom {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    .bannerBottom .text-area-bottom {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+
+        /* margin-top: 50vh; */
+        /* background-color: firebrick; */
+    }
+    .text-with-hi-bottom>h3 {
+        font-size: 3rem;
+        font-weight: 500;
+        margin-left: -6vh;
+    }
+    .text-area-bottom>h3 {
+        text-align: center;
+        margin-left:0vh;
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        width: 80%;
+        font-weight: 500;
+    }
+    .text-area-bottom>p {
+        margin-left: 2vh;
+    }
+    .bannerBottom .hero-bottom {
+        display: none;
+    }
+    .text-area-bottom button {
+        margin-left: 1vh;
+    }
+    .newCollections {
+        width: 100%;
+        height: 100vh;
+        overflow: scroll;
+    }
+    .newCollections h1::after {
+        width: 50%;
+        height: 2px;
+        margin-top: 15%;
+    }
+    .newCollection-flex-card{
+        grid-template-columns: repeat(2 , 1fr);
+        overflow-y: scroll;
+    }
+    .card-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .getInfoBanner h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .input-field {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 30%;
+        
+    }
+    .input-field input {
+        width: 100%;
+        height: 40%;
+        padding-left: 11px;
+        font-size: 1rem;
+    }
+    .input-field button {
+        width: 100%;
+        height: 40%;
+        font-size: 14px;
+    }
 }

@@ -3,7 +3,7 @@
 .footer {
     width: 100%;
     height: 50vh;
-    background-color: khaki;
+    /* background-color: khaki; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@ ul li:hover {
 }
 
 .icons {
-    width: 30%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +57,24 @@ a img {
 }
 
 .linkedin_icon {
-    margin-bottom: 5px;
+    margin-bottom: 18px;
     width: 30px;
-    height: 3px;
+    height: 2px;
+}
+@media (min-width:374px) and (max-width:761px) {
+    .footer img {
+        width: 22%;
+    }
+    .footer h2 {
+        font-size: 2rem;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+    .icons {
+        width: 35%;
+        margin-bottom: 6vh;
+    }
 }

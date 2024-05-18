@@ -15,6 +15,7 @@ function Footer() {
                         <li>Offices</li>
                         <li>About</li>
                         <li>Contact</li>
+                        <li>Locations</li>
                     </ul>
                 </div>
                 <div className='icons'>

@@ -68,66 +68,66 @@ let new_collections = [
       require('../images/kid4_i3.jpeg'),
     ]
   },
-  {
-    id: 29,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p29_img,
-    new_price: 85.0,
-    old_price: 120.5,
-    gender: 'Kids',
-    smallImage: [
-      require('../Assets/product_29.png'),
-      require('../images/kid5_i1.jpeg'),
-      require('../images/kid5_i2.jpeg'),
-      require('../images/kid5_i3.jpeg'),
-    ]
-  },
-  {
-    id: 30,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p30_img,
-    new_price: 85.0,
-    old_price: 120.5,
-    gender: 'Kids',
-    smallImage: [
-      require('../Assets/product_30.png'),
-      require('../images/kid6_i1.jpeg'),
-      require('../images/kid6_i2.jpeg'),
-      require('../images/kid6_i3.jpeg'),
-    ]
-  },
-  {
-    id: 31,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p31_img,
-    new_price: 85.0,
-    old_price: 120.5,
-    gender: 'Kids',
-    smallImage: [
-      require('../Assets/product_31.png'),
-      require('../images/kid7_i1.jpeg'),
-      require('../images/kid7_i2.jpeg'),
-      require('../images/kid7_i3.jpeg'),
-    ]
-  },
-  {
-    id: 32,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p32_img,
-    new_price: 85.0,
-    old_price: 120.5,
-    gender: 'Kids',
-    smallImage: [
-      require('../Assets/product_32.png'),
-      require('../images/kid8_i1.jpeg'),
-      require('../images/kid8_i2.jpeg'),
-      require('../images/kid8_i3.jpeg'),
-    ]
-  },
+  // {
+  //   id: 29,
+  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
+  //   category: "kid",
+  //   image: p29_img,
+  //   new_price: 85.0,
+  //   old_price: 120.5,
+  //   gender: 'Kids',
+  //   smallImage: [
+  //     require('../Assets/product_29.png'),
+  //     require('../images/kid5_i1.jpeg'),
+  //     require('../images/kid5_i2.jpeg'),
+  //     require('../images/kid5_i3.jpeg'),
+  //   ]
+  // },
+  // {
+  //   id: 30,
+  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
+  //   category: "kid",
+  //   image: p30_img,
+  //   new_price: 85.0,
+  //   old_price: 120.5,
+  //   gender: 'Kids',
+  //   smallImage: [
+  //     require('../Assets/product_30.png'),
+  //     require('../images/kid6_i1.jpeg'),
+  //     require('../images/kid6_i2.jpeg'),
+  //     require('../images/kid6_i3.jpeg'),
+  //   ]
+  // },
+  // {
+  //   id: 31,
+  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
+  //   category: "kid",
+  //   image: p31_img,
+  //   new_price: 85.0,
+  //   old_price: 120.5,
+  //   gender: 'Kids',
+  //   smallImage: [
+  //     require('../Assets/product_31.png'),
+  //     require('../images/kid7_i1.jpeg'),
+  //     require('../images/kid7_i2.jpeg'),
+  //     require('../images/kid7_i3.jpeg'),
+  //   ]
+  // },
+  // {
+  //   id: 32,
+  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
+  //   category: "kid",
+  //   image: p32_img,
+  //   new_price: 85.0,
+  //   old_price: 120.5,
+  //   gender: 'Kids',
+  //   smallImage: [
+  //     require('../Assets/product_32.png'),
+  //     require('../images/kid8_i1.jpeg'),
+  //     require('../images/kid8_i2.jpeg'),
+  //     require('../images/kid8_i3.jpeg'),
+  //   ]
+  // },
 ];
 
 export default new_collections;
