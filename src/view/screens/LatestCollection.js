@@ -1,24 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, {useState, useEffect} from "react";
 import NavBar from "../components/NavBar";
-import { kids } from "../data/kid";
+import { latestCollection } from "../data/latestCollection";
 import { useNavigate } from "react-router-dom";
-import "../style/shop.css";
 
-const Kid = () => {
-  const kidDetails = useNavigate();
-  const [kid, setKids] = useState("");
-  useEffect(() => {
-    setKids(kids);
-  }, []);
+const LatestCollection = () => {
+  const latestCollectionDetail = useNavigate();
+  const [latest, setLatest] = useState('')
+  useEffect(()=>{
+    setLatest(latestCollection)
+  },[])
   return (
     <div>
       <NavBar />
       <div className="card-container">
         <div className="card-con">
-          {kid &&
-            kid.map((val) => (
+          {latest &&
+            latest.map((val) => (
               <div
-                onClick={() => kidDetails("/details", { state: val })}
+                onClick={() => latestCollectionDetail("/details", { state: val })}
                 class="card-new-collection"
               >
                 <img src={val.image} alt="" />
@@ -34,4 +33,4 @@ const Kid = () => {
   );
 };
 
-export default Kid;
+export default LatestCollection;

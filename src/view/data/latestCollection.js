@@ -20,7 +20,7 @@ import p18_img from "../Assets/New collection/womens/women8.avif";
 import p19_img from "../Assets/New collection/womens/women9.avif";
 import p20_img from "../Assets/New collection/womens/women10.jpeg";
 
-export let latestCollectionMen = [
+export let latestCollection = [
   {
     id: 1,
     name: "NETPLAY Regular Fit Striped Polo T-Shirt",
@@ -31,7 +31,7 @@ export let latestCollectionMen = [
     smallImage: [
       require("../Assets/New collection/mens/men1.webp"),
       require("../Assets/New collection/mens/small/men1_1.avif"),
-      require("../Assets/New collection/mens/small/men1_2.avif"),
+      require("../Assets/New collection/mens/small/men1_2.webp"),
       require("../Assets/New collection/mens/small/men1_3.avif"),
     ],
   },
@@ -59,8 +59,8 @@ export let latestCollectionMen = [
     smallImage: [
       require("../Assets/New collection/mens/men3.jpeg"),
       require("../Assets/New collection/mens/small/men3_1.webp"),
-      require("../Assets/New collection/mens/small/men3_2.webp"),
-      require("../Assets/New collection/mens/small/men3_3.webp"),
+      require("../Assets/New collection/mens/small/men3_2.avif"),
+      require("../Assets/New collection/mens/small/men3_3.avif"),
     ],
   },
   {
@@ -161,13 +161,8 @@ export let latestCollectionMen = [
       require("../Assets/New collection/mens/small/men10_3.avif"),
     ],
   },
-];
-
-// export default latestCollectionMen;
-
-export let latestCollectionWomen = [
   {
-    id: 1,
+    id: 11,
     name: "DECKEDUP Women Block Print Relaxed Fit Front-Open Shrug",
     image: p11_img,
     new_price: 480.0,
@@ -181,7 +176,7 @@ export let latestCollectionWomen = [
     ],
   },
   {
-    id: 2,
+    id: 12,
     name: "AZIRA Floral Print Georgette Shrug",
     image: p12_img,
     new_price: 599.0,
@@ -195,7 +190,7 @@ export let latestCollectionWomen = [
     ],
   },
   {
-    id: 3,
+    id: 13,
     name: "HIVE 91 Checked Tunic with Tie-Up",
     image: p13_img,
     new_price: 660.0,
@@ -209,7 +204,7 @@ export let latestCollectionWomen = [
     ],
   },
   {
-    id: 4,
+    id: 14,
     name: "KEDAR FAB Embroidered Fit & Flare Gown Dress with Dupatta",
     image: p14_img,
     new_price: 1560.0,
@@ -218,12 +213,12 @@ export let latestCollectionWomen = [
     smallImage: [
       require("../Assets/New collection/womens/women4.avif"),
       require("../Assets/New collection/womens/small/women4_1.avif"),
-      require("../Assets/New collection/womens/small/women4_2.jpeg"),
-      require("../Assets/New collection/womens/small/women4_3.jpeg"),
+      require("../Assets/New collection/womens/small/women4_2.avif"),
+      require("../Assets/New collection/womens/small/women4_3.avif"),
     ],
   },
   {
-    id: 5,
+    id: 15,
     name: "MOOMAYA Women Printed Relaxed Fit Front-Open Shrug",
     image: p15_img,
     new_price: 810.0,
@@ -237,7 +232,7 @@ export let latestCollectionWomen = [
     ],
   },
   {
-    id: 6,
+    id: 16,
     name: "DECKEDUP Chevrons Print Front-Open Shrug",
     image: p16_img,
     new_price: 560.0,
@@ -251,7 +246,7 @@ export let latestCollectionWomen = [
     ],
   },
   {
-    id: 7,
+    id: 17,
     name: "FUSION Knitted Open-Front Kimono Shrug",
     image: p17_img,
     new_price: 450.0,
@@ -265,7 +260,7 @@ export let latestCollectionWomen = [
     ],
   },
   {
-    id: 8,
+    id: 18,
     name: "MATWALI Geometric Print Shrug with Tie-Up Front",
     image: p18_img,
     new_price: 500.0,
@@ -279,7 +274,7 @@ export let latestCollectionWomen = [
     ],
   },
   {
-    id: 9,
+    id: 19,
     name: "DEEPS FASHIONS Embroidered Tunic with Flared Sleeves",
     image: p19_img,
     new_price: 410.0,
@@ -293,7 +288,7 @@ export let latestCollectionWomen = [
     ],
   },
   {
-    id: 10,
+    id: 20,
     name: "HIVE 91 Checked Tunic with Tie-Up",
     image: p20_img,
     new_price: 660.0,
