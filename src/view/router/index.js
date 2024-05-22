@@ -12,6 +12,9 @@ import Kid from "../screens/Kid";
 import AddToCart from "../screens/AddToCart";
 import Payment from "../screens/Payment";
 import LatestCollection from "../screens/LatestCollection";
+import NetBanking from "../components/NetBanking";
+import UPI from "../components/UPI";
+import CashOnDelivery from "../components/CashOnDelivery";
 
 function RouterNav() {
   const [userData, setUserData] = useState("");
@@ -36,6 +39,9 @@ function RouterNav() {
       <Route path="/addtocart" Component={AddToCart} />
       <Route path="/payment" Component={Payment} />
       <Route path="/latestcollection" Component={LatestCollection} />
+      <Route path="/payment/netbanking" Component={NetBanking} />
+      <Route path="/payment/upi" Component={UPI} />
+      <Route path="/payment/cashondelivery" Component={CashOnDelivery} />
       {userData !== null ? (
         <>
           <Route path="/" Component={Home} />

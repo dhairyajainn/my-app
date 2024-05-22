@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../style/payment.css";
 import NavBar from "../components/NavBar";
 
-const Payment = () => {
+const NetBanking = () => {
   return (
     <div>
       <NavBar />
@@ -21,10 +21,18 @@ const Payment = () => {
               Cash On Delivery
             </Link>
           </ul>
+        <div className="netbanking">
+          <form>
+            <input placeholder="Card holder name"></input>
+            <input placeholder="Card Number"></input>
+            <input placeholder="Exp Date"></input>
+          </form>
+          <button>Place order</button>
+        </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Payment;
+export default NetBanking;

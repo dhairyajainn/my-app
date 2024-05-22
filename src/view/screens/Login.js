@@ -25,13 +25,21 @@ const Login = () => {
       email: email,
       password: password,
     };
-    console.log(dataPush); //localhost:3000 ye daal
-    localStorage.setItem("user", dataPush);
-    if (email !== "" && password !== "") {
-      window.location = "/";
+    console.log(dataPush);
+
+    localStorage.getItem("email");
+    localStorage.getItem("password");
+
+    if(localStorage.getItem('email') === email && localStorage.getItem('password')  === password) {
+      window.location = '/'
     } else {
-      alert("Please enter correct email and password");
+      alert("Plese enter correct details")
     }
+    // if (email !== "" && password !== "") {
+    //   window.location = "/register";
+    // } else {
+    //   alert("Please enter correct email and password");
+    // }
     setEmail("");
     setPassword("");
   };
@@ -62,7 +70,7 @@ const Login = () => {
             <span onClick={() => signUp("/signup")}>Click Here</span>{" "}
           </p>
           <div className="checkbox">
-            <input type="checkbox" id="scales" name="scales" />
+            <input type="checkbox" id="scales" name="scales" required />
             <label id="label-text" for="scales">
               By Continuing, I agree to the terms of use & privacy policy.
             </label>

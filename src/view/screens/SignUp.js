@@ -30,7 +30,13 @@ const SignUp = () => {
             password: password
         }
         console.log(dataPush);
-        localStorage.setItem('usersignup', dataPush)
+
+        // localStorage.setItem('usersignup', dataPush)
+
+        localStorage.setItem("name", name)
+        localStorage.setItem("email", email)
+        localStorage.setItem("password", password)
+
         if(name!=='' && email!=='' && password!=='') {
             window.location = '/login'
         } else {
@@ -53,7 +59,7 @@ const SignUp = () => {
 
                 <p>Already have an account? <span onClick={()=>login("/login")}>Login</span> </p>
                 <div className='checkbox'>
-                    <input type="checkbox" id="scales" name="scales" />
+                    <input type="checkbox" id="scales" name="scales" required />
                     <label id='label-text' for="scales">By Continuing, i agree to the terms of use & privacy policy.</label>
                 </div>
             </div>
